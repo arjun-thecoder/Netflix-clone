@@ -1,0 +1,283 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+body{
+    background-color: black;
+}
+
+.main{   
+    height:90vh;
+    background: url(/Assets/bg.jpg);
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.main nav img{
+    width: 145px;
+    position: relative;
+    z-index: 10;
+    opacity: 0.9;
+}
+
+.main nav{
+    max-width: 75vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 92px;
+}
+
+.main nav button{
+    position: relative;
+    z-index: 10;
+}
+
+.btn-eng{
+    border: 1px solid rgb(138, 134, 134);
+    background-color: black;
+    text-align: center;
+    align-items: center;
+    padding: 3px 19px;
+    font-size: 19px;
+    border-radius: 0.25rem;
+}
+
+.btn-singin{
+    background-color: red;
+    padding: 3px 16px;
+    font-size: 19px;
+    border-radius: 00.25rem;
+    margin-left: 21px;
+}
+
+.btn-singin:hover{
+    background-color: rgb(209, 0, 0);
+    cursor: pointer;
+}
+
+.mainBox{
+    height: 90vh;
+    width: 100%;
+    opacity: 0.44;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+.mainText{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: auto;
+    position: relative;
+    gap: 16px;
+}
+
+.mainText span{
+    text-align: center;
+    padding: 5px 0px;
+    position: relative;
+}
+
+.main .mainText> :first-child{
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.main .mainText> :nth-child(2){
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.main .mainText> :nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.email{
+    margin: 11px 0;
+    margin-bottom: 75px;
+}
+
+.email input{
+    background: none;
+    line-height: 1.5;
+    padding: 1.2rem 1rem 0.5rem;
+    font-size: 1.4rem;
+    border: 1px solid white;
+    border-radius: 2px; 
+}
+
+.email button{
+    background-color: red;
+    padding: 11px 21px;
+    font-size: 2.1rem;
+    border: none;
+    border-radius: 2px;
+    margin-left: 16px;
+    cursor: pointer;
+}
+
+.line{
+    height: 7px;
+    background-color: rgb(43, 41, 41);
+}
+
+/* Start Section 1 */
+.section{
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+}
+
+.section1 .tv-img{
+    position: absolute;
+    top: 93%;
+    right: 6.5%;
+}
+
+.section1{
+    flex-direction: row-reverse;
+}
+
+.sectio1 .video-tv{
+    position: absolute;
+    overflow: hidden;
+}
+
+video{
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+.section-text h1{
+    padding: 15px 115px;
+    font-size: 2.5rem;
+    text-align: start;
+}
+
+.section-text p{
+    font-size: 1.1rem;
+    padding: 0 115px;
+    text-align: start;
+}
+
+/* Section 2 Start */
+.section2{
+    margin: auto;
+}
+
+/* Section 3 Start */
+.section3{
+    margin: auto;
+}
+
+.section3 .tv-img{
+    position: absolute;
+    top: 230%;
+    right: 6.5%;
+}
+
+.section3{
+    flex-direction: row-reverse;
+}
+
+/* Section 4 Start */
+.section4{
+    margin: auto;
+}
+
+/* Start FAQ Section */
+.faq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.faq h1{
+    font-size: 3rem;
+    padding: 20px;
+}
+
+.main-faq{
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+    font-size: 1.6rem;
+}
+
+.main-faq span{
+    padding: 25px;
+    background-color: rgb(53, 50, 50);
+    border-radius: 2px;
+    margin: 4px 0;
+}
+
+.main-faq span:hover{
+    background-color: rgb(71, 68, 68);
+    cursor: pointer;
+}
+
+.faq p{
+    padding-top: 25px;
+    padding-bottom: 10px;
+    font-size: 1.4rem;
+}
+
+/* Footer Section Start */
+footer{
+    height: 40vh;
+    margin: 25px 150px;
+}
+
+footer p{
+    font-size: 1.1rem;
+    color: rgb(255, 255, 255, 0.7);
+    margin: 20px 0;
+}
+
+footer p span{
+    text-decoration: underline;
+    color: rgb(255, 255, 255, 0.7);
+    cursor: pointer;
+}
+
+footer .btn-last{
+    margin: 20px 0;
+}
+
+footer .fot-link ul{
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -24px;
+}
+
+footer .fot-link ul li{
+    margin: 7px 25px;
+    width: 220px;
+}
+
+footer .fot-link ul li a{
+    color: rgb(255, 255, 255, 0.7);
+    font-size: 1rem;
+    margin: 100px 0;
+}
+
+
+
+
